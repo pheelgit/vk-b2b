@@ -1,0 +1,71 @@
+.meeting-room-booking-form {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2em;
+
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.meeting-room-booking-form--component {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+}
+
+.meeting-room-booking-form input,
+.meeting-room-booking-form select,
+.meeting-room-booking-form textarea {
+  font-size: 13px;
+  padding: 6px 0 4px 10px;
+  border: 1px solid #cecece;
+  background: #f6f6f6;
+  border-radius: 8px;
+}
+
+.meeting-room-booking-form textarea {
+  resize: none;
+}
+
+.meeting-room-booking-form label {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 5px;
+  height: fit-content;
+}
+
+.meeting-room-booking-form .btn {
+  cursor: pointer;
+  border: 1px solid #cecece;
+  background: #f6f6f6;
+  box-shadow: inset 0px 20px 20px #ffffff;
+  border-radius: 8px;
+  padding: 8px 10px;
+  min-width: 100px;
+}
+
+.meeting-room-booking-form .btn:hover {
+  box-shadow: inset 0px -20px 20px #ffffff;
+  outline: none;
+}
+
+.meeting-room-booking-form .form--controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+}
+
+.meeting-room-booking-form .btn--reset:hover {
+  box-shadow: inset 0px -20px 20px #ffcbdb;
+}
+.meeting-room-booking-form .btn--submit:hover {
+  box-shadow: inset 0px -20px 20px #77dde7;
+}
